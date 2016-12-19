@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
+
+.header a {
+  color: black;
+}
+
+.jumbotron {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.jumbotron span {
+  color: #ffc200;
+}
+
+.banner {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.cards {
+  background-color: #ffc200;
+}
+
+.cards h2 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cards img {
+  margin: 10px 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0 30px 0;
+}
+
+.footer img {
+  height: 25px;
+  padding-right: 10px;
+}
