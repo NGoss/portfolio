@@ -79,6 +79,10 @@ html, body {
 	background-color: #E7EFFB;
 }
 
+.body a img {
+	height: 200px;
+}
+
 .body .screencap {
 	height: 150px;
 	border: 1px solid black;
