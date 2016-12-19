@@ -47,3 +47,9 @@ a:link, a:visited, a:hover, a:active {
 .about-btn:link, .about-btn:visited, .about-btn:hover, .about-btn:active {
 	color: #5D6166;
 }
+
+@media (max-width: 1200px) {
+	a {
+		font-size: 20px;
+	}
+}
