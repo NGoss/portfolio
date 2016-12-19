@@ -18,7 +18,7 @@ html, body {
 }
 
 .header {
-	background-color: rgba(119,160,194,0.75);
+	background-color: rgba(112, 142, 173, 0.75);
 	height: 65px;
 }
 
@@ -54,7 +54,7 @@ html, body {
 
 .header a:hover {
 	color:white;
-	background-color:#77A0C2;
+	background-color:#384b68;
 }
 
 .header .github:hover {
@@ -75,7 +75,7 @@ html, body {
 	width: 300px;
 	border: 4px solid black;
 	display: inline-block;
-	background-color: rgba(254,174,127,0.5);
+	background-color: rgba(207, 203, 193, 0.5);
 }
 
 .jumbotron h2 {
@@ -84,7 +84,7 @@ html, body {
 }
 
 .body {
-	background-color: #E7EFFB;
+	background-color: #E8EBF2;
 }
 
 .body a img {
