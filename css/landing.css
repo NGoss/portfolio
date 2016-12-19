@@ -1,0 +1,48 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url("../img/landing.jpg") center center no-repeat fixed;
+	background-size: cover;
+}
+
+.name {
+	margin-bottom: 60px;
+}
+
+h1 {
+	font-size: 144px;
+	color: white;
+	text-shadow: 1
+	// Get new font!
+}
+
+.port-btn {
+	background-color: #2F75CC;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+
+.about-btn {
+	background-color: #E7EFFA;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #5D6166;
+}
+
+a {
+	font-size: 24px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+.port-btn:link, .port-btn:visited, .port-btn:hover, .port-btn:active {
+	color: white;
+}
+
+.about-btn:link, .about-btn:visited, .about-btn:hover, .about-btn:active {
+	color: #5D6166;
+}
