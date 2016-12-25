@@ -15,7 +15,6 @@ h1 {
 	font-size: 144px;
 	color: white;
 	text-shadow: 1
-	// Get new font!
 }
 
 .port-btn {
@@ -51,5 +50,11 @@ a:link, a:visited, a:hover, a:active {
 @media (max-width: 1200px) {
 	a {
 		font-size: 20px;
+	}
+}
+
+@media (max-width: 420px) {
+	h1 {
+		font-size: 120px;
 	}
 }
