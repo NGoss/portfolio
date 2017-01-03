@@ -113,7 +113,7 @@ html, body {
 	height: 25px;
 }
 
-.footer p {
+.footer p , address{
 	margin: 0 auto;
 	background-color: #6E6965;
 	color: #77A0C2;
@@ -131,6 +131,14 @@ html, body {
 	padding: auto;
 	float: right;
 	text-align: right;
+}
+
+.footer a {
+	color: #E8EBF2;
+}
+
+.footer address {
+	font-size: 10px;
 }
 
 @media screen and (min-width: 992px) {
